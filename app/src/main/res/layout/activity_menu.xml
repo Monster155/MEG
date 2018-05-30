@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".MenuActivity"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/lm1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/titlepic"
+            android:src="@drawable/magic_eng" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_menu"
+            android:fontFamily="@font/papyrusfont"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:text="@string/start_btn"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:fontFamily="@font/papyrusfont"
+            tools:targetApi="jelly_bean" />
+
+        <Button
+            android:id="@+id/how_to"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_menu"
+            android:fontFamily="@font/papyrusfont"
+            android:layout_weight="1"
+            android:text="Как играть"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_menu"
+            android:fontFamily="@font/papyrusfont"
+            app:fontFamily="@font/papyrus"
+            android:scaleType="fitXY"
+            android:text="@string/exit_btn"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Magic English</string>
+    <string name="start_btn">Начать игру</string>
+    <string name="exit_btn">Выход из игры</string>
+    <string name="titlepic">Title</string>
+    <string-array name="arrayWithStrings">
+        <item>drg1</item>
+        <item>drg1_arct</item>
+        <item>drg1_earth</item>
+        <item>drg1_fir</item>
+        <item>drg2_acid</item>
+        <item>drg2_arct</item>
+        <item>drg3</item>
+        <item>drg3_earth</item>
+        <item>drg3_fir</item>
+    </string-array>
+    <string-array name="arrayWithStringsRUS">
+        <item>Сламандра</item>
+        <item>Саламандра ледяных пустошей</item>
+        <item>Саламндара глинистых топей</item>
+        <item>Саламандра лавогого леса</item>
+        <item>Плеватель</item>
+        <item>Плеватель ледяных пустошей</item>
+        <item>Летающий скрытень</item>
+        <item>Летающий скрытень глинистых топей</item>
+        <item>Летающий скрытень лавогого леса</item>
+    </string-array>
+</resources>
